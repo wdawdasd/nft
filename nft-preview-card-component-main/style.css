@@ -37,9 +37,6 @@ h1 {
   line-height: 1.6;
 }
 img {
-  width: 200px;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 .eth {
   width: 10px;
@@ -61,7 +58,7 @@ img {
   color: #ced4da;
   font-size: 13px;
   font-weight: 400;
-padding-left: 2rem;
+  padding-left: 2rem;
 }
 .hr {
   width: 200px;
@@ -72,7 +69,31 @@ hr {
   border: none;
   height: 0.5px;
 }
-.createdby img {
-    height: 50px;
-    width: auto;
+.time {
+  width: 10px;
+  height: auto;
+  padding: 0%;
+}
+#createdby img {
+  width: auto;
+  height: 25px;
+  padding-right: 20px;
+  margin: auto;
+}
+#createdby {
+  margin-top: -6rem;
+  width: 250px;
+  height: 100px;
+  padding-left: 20px;
+  margin-right: 5rem;
+  font-size: 13px;
+  color: #ced4da;
+}
+
+#Equilibrium {
+  border-radius: 10px;
+  border: 10px black;
+  width: 200px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
