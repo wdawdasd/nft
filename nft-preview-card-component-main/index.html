@@ -13,9 +13,7 @@
     />
 
     <title>Frontend Mentor | NFT preview card component</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="card">
@@ -29,7 +27,23 @@
       <div class="description">
         Our Equilibrium collection promotes balance and calm.
       </div>
-      <div class="bottom">0.041 ETH 3 days left Creation of Jules Wyvern</div>
+      <div class="bottom">
+        <img class="eth" src="./images/icon-ethereum.svg" alt="" />
+        <span id="price">0.041 ETH</span>
+        <img src="./images/icon-clock.svg" alt="" class="eth" id="time" />
+        <span id="time">3 days left </span>
+        <br />
+        <div class="hr">
+          <hr />
+        </div>
+
+        <div class="createdby">
+          <p>
+            <img src="./images/image-avatar.png" alt="" /> Creation by [insert
+            name]
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="attribution">

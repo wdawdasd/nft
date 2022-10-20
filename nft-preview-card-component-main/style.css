@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 250px;
+  height: 500px;
+  font-family: "Outfit", sans-serif;
+  color: #ffffff;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 1.5rem;
+  letter-spacing: 0.5px;
+}
+.description {
+  font-size: 13px;
+  font-weight: 300;
+  padding-left: 1.5rem;
+  width: 250px;
+  text-align: start;
+  color: #ced4da;
+  line-height: 1.6;
+}
+img {
+  width: 200px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.eth {
+  width: 10px;
+  height: auto;
+  padding-left: 1.5rem;
+  padding-right: 0px;
+}
+#price {
+  font-size: 13px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.bottom {
+  margin-top: 2rem;
+  width: 250px;
+  height: 150px;
+}
+#time {
+  color: #ced4da;
+  font-size: 13px;
+  font-weight: 400;
+padding-left: 2rem;
+}
+.hr {
+  width: 200px;
+  margin: 0 auto;
+}
+hr {
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  height: 0.5px;
+}
+.createdby img {
+    height: 50px;
+    width: auto;
+}
