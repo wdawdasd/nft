@@ -13,12 +13,13 @@ body {
   height: 500px;
   font-family: "Outfit", sans-serif;
   color: #ffffff;
-border-radius: 15px;
+  border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
   margin-bottom: auto;
-  box-shadow: -34px 22px 14px 19px rgba(0,0,0,0.1),49px 16px 29px 14px rgba(0,0,0,0.1);
+  box-shadow: -34px 22px 14px 19px rgba(0, 0, 0, 0.1),
+    49px 16px 29px 14px rgba(0, 0, 0, 0.1);
 }
 h1 {
   font-size: 18px;
@@ -92,10 +93,13 @@ hr {
   border-radius: 10px;
   border: 10px black;
   width: 220px;
+  height: auto;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
+  position: relative;
 }
 #white {
-    color:#ffffff;
+  color: #ffffff;
 }
+
