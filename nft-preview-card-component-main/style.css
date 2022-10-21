@@ -6,20 +6,19 @@ body {
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
 .card {
   background-color: hsl(216, 50%, 16%);
   width: 250px;
   height: 500px;
   font-family: "Outfit", sans-serif;
   color: #ffffff;
-
+border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
   margin-bottom: auto;
+  box-shadow: -34px 22px 14px 19px rgba(0,0,0,0.1),49px 16px 29px 14px rgba(0,0,0,0.1);
 }
 h1 {
   font-size: 18px;
@@ -36,13 +35,12 @@ h1 {
   color: #ced4da;
   line-height: 1.6;
 }
-img {
-}
+
 .eth {
   width: 10px;
   height: auto;
   padding-left: 1.5rem;
-  padding-right: 0px;
+  padding-right: 5px;
 }
 #price {
   font-size: 13px;
@@ -58,7 +56,7 @@ img {
   color: #ced4da;
   font-size: 13px;
   font-weight: 400;
-  padding-left: 2rem;
+  padding-left: 1.6rem;
 }
 .hr {
   width: 200px;
@@ -72,7 +70,7 @@ hr {
 .time {
   width: 10px;
   height: auto;
-  padding: 0%;
+  padding-right: 10px;
 }
 #createdby img {
   width: auto;
@@ -93,7 +91,11 @@ hr {
 #Equilibrium {
   border-radius: 10px;
   border: 10px black;
-  width: 200px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  width: 220px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#white {
+    color:#ffffff;
 }
