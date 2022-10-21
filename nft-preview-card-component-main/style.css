@@ -103,3 +103,6 @@ hr {
   color: #ffffff;
 }
 
+.title:hover, #white:hover {
+  color:hsl(178, 100%, 50%);
+}
